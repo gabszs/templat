@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "templat"
-version = "0.1.0"
+version = "1.0.1"
 description = ""
 authors = ["GabrielCarvalho <gabrielcarvalho.workk@gmail.com>"]
 readme = "README.md"
