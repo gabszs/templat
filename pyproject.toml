@@ -1,12 +1,12 @@
 [tool.poetry]
 name = "templat"
-version = "1.0.1"
+version = "1.0.2"
 description = ""
 authors = ["GabrielCarvalho <gabrielcarvalho.workk@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = ">=3.9,<3.13"
 pydantic-settings = "^2.7.1"
 aiobotocore = "^2.19.0"
 aiofiles = "^24.1.0"
