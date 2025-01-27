@@ -12,10 +12,10 @@ from templat.core.settings import settings
 class AsyncS3Manager:
     def __init__(
         self,
-        s3_access_key_id: str = settings.S3_ACCESS_ID,
-        s3_secret_access_key: str = settings.S3_SECRET_KEY,
-        region_name: str = "auto",
-        endpoint_url: str = settings.S3_BUCKET_URL,
+        s3_access_key_id: str = settings.S3_ACCESS_ID,  # type: ignore
+        s3_secret_access_key: str = settings.S3_SECRET_KEY,  # type: ignore
+        region_name: str = "auto",  # type: ignore
+        endpoint_url: str = settings.S3_BUCKET_URL,  # type: ignore
     ):
         self.s3_access_key_id = s3_access_key_id
         self.s3_secret_access_key = s3_secret_access_key
