@@ -8,6 +8,8 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.11"
 pydantic-settings = "^2.7.1"
+aiobotocore = "^2.19.0"
+aiofiles = "^24.1.0"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.3.4"
@@ -15,13 +17,6 @@ icecream = "^2.1.4"
 ruff = "^0.9.3"
 taskipy = "^1.14.1"
 
-
-[tool.poetry.group.s3.dependencies]
-aiobotocore = "^2.19.0"
-aiofiles = "^24.1.0"
-
-[tool.poetry.extras]
-s3 = ["aibotocore", "aiofiles"]
 
 [build-system]
 requires = ["poetry-core"]
